@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         txtMesaj = (TextView) findViewById(R.id.txtMesaj);
         txtMesaj.setText(R.string.karsilama_mesaj);
-        txtMesaj.setTextSize(28);
+        txtMesaj.setTextSize(25);
+
 
     }
 
